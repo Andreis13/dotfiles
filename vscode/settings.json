@@ -1,0 +1,26 @@
+{
+    "telemetry.enableTelemetry": false,
+    "window.zoomLevel": 1,
+    "workbench.colorTheme": "Solarized Light",
+    "editor.fontSize": 18,
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "editor.rulers": [
+    80, 120
+    ],
+    "[yaml]": {
+
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2,
+        "editor.autoIndent": "advanced",
+        "gitlens.codeLens.scopes": [
+            "document"
+        ]
+    },
+    "[ruby]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2
+    },
+    "security.workspace.trust.banner": "never"
+}
