@@ -1,13 +1,14 @@
 {
-    "telemetry.enableTelemetry": false,
-    "window.zoomLevel": 1,
+    "telemetry.telemetryLevel": "off",
     "workbench.colorTheme": "Solarized Light",
-    "editor.fontSize": 18,
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.startupEditor": "none",
     "files.trimTrailingWhitespace": true,
-    "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
+    "files.insertFinalNewline": true,
+    "editor.fontSize": 18,
     "editor.rulers": [
-    80, 120
+        80, 120
     ],
     "[yaml]": {
 
@@ -21,6 +22,5 @@
     "[ruby]": {
         "editor.insertSpaces": true,
         "editor.tabSize": 2
-    },
-    "security.workspace.trust.banner": "never"
+    }
 }
